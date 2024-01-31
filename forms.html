@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <canvas width="200" height="200" id="canvas" style="border:1px solid #000000;"></canvas>
+    <form action="" method="get">
+        <label for="firstName"> Enter FirstName:</label>
+        <input  placeholder="FirstName" type="text" id="firstName" name="FirstName">
+        <br> <br>
+        <label for="lastName"> Enter LastName :</label>
+        <input placeholder="LastName"  type="hidden" id="lastName" name="LastName">
+        <br> <br>
+        <input type="radio" name="gender" id="male" value="MALE">
+        <label for="male"> Male </label>
+        <input type="radio" name="gender" id="female" value="FEMALE">
+        <label for="female"> Female </label>
+        <br> <br>
+        <input type="checkbox" name="swimming" id="swimming" value="swimming">
+        <label for="swimming">Swimming</label>
+        <input type="checkbox" name="teaching" id="teaching" value="teaching">
+        <label for="teaching">Teaching</label>
+        <input type="checkbox" name="gardening" id="gardening" value="gardening">
+        <label for="gardening">Gardening</label>
+        <br> <br>
+        <fieldset>
+            <legend>User Authentication</legend>
+            <label for="email">Enter Email</label>
+             <input type="email" name="email" id="email">
+            <br> <br>
+            <label for="password">Enter Password</label>
+            <input type="password" name="password" id="password">
+        </fieldset>
+        
+        <br> <br>
+        <label for="birthday">Enter BirthDay</label>
+        <input type="date" name="birthday" id="birthday">
+        <br> <br>
+        <input type="datetime-local" name="" id="">
+        <br> <br>
+        <label for="age">Enter age</label>
+        <input type="number" name="Age" id="age">
+        <br> <br>
+        <label for="degree">Enter Degree</label>
+        <select name="degree" id="degree">
+            <option value="10th Pass">10th Pass</option>
+            <option value="12th Pass">12th Pass</option>
+            <option value="BCA">BCA</option>
+            <option value="MCA">MCA</option>
+        </select>
+        <br> <br>
+        <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+        <br> <br>
+        <input type="file" name="" id="">
+        <br> <br>
+        <input type="button" value="Submit">
+        <input type="reset" value="Reset">
+    </form>  
+</body>
+</html>
