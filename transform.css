@@ -1,0 +1,18 @@
+.container {
+    width: 100vw;
+    height: 1800px;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    transition: transform 2s;
+}
+
+.box:hover {
+    transform: translateX(500px);
+}

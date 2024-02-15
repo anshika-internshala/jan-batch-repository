@@ -1,0 +1,33 @@
+.parent {
+    width: 100vw;
+    height: 1000px;
+    background-color: brown;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    font-size: xx-large;
+}
+
+.child1 {
+    background-color: aqua;
+    border: 1px solid black;
+    order: 10;
+}
+
+.child2 {
+    background-color: aquamarine;
+    border: 1px solid black;
+    order: -1;
+}
+
+.child3 {
+    background-color: blueviolet;
+    border: 1px solid black;
+}

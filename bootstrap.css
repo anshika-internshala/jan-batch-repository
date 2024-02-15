@@ -1,0 +1,10 @@
+.custom-class {
+    display: flex;
+    flex-direction: column;
+}
+
+/* @include media-breakpoint-up(sm) {
+    .custom-class {
+        flex-direction: row
+    }
+} */

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+
+p {
+    color: blue;
+}
+
+.para {
+    color: red
+}
+
+#lorem {
+    color: green;
+    background-color: aquamarine;
+    display: inline-block;
+    width: 1400px;
+    height: 500px;
+}
+
+.spanelement {
+    color: #ad2038;
+}
+
+.container {
+    width: 100%;
+    height: 2000px;
+    background-color: brown;
+    border: 2px solid black;
+    margin: 10px;
+    position: relative;
+}
+
+.container1{
+    width: 100%;
+    height: 2000px;
+    background-color: green;
+    border: 2px solid black;
+    position: relative;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.box1 {
+    background-color:aqua;
+    position: sticky;
+    top: 0px;
+    left: 500px;
+    z-index: 1;
+}
+
+.box2 {
+    background-color: aquamarine;
+    position: fixed;
+    top: 0px;
+    z-index: 1
+}
+
+.box3 {
+    background-color: beige;
+    margin: 10px;
+}
+
